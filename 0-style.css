@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    
+}
+header{
+    background-image: url(/images/music.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    display: none;
+}
+
+#navbar ul{
+    list-style-type: none;
+    
+}
+#navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    color: black;
+    /* text-align: center; */
+}
+#navbar li{
+   float: left;
+}
+#text{
+    margin-top: 250px;
+    text-align: center;
+    clear: left;    
+ }
+ button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(222, 90, 134);
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+ }
+
+
+  @media screen and (max-width: 600px){ 
+    
+    .head{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+    #navbar:hover .head{
+        display: block;
+        clear: left;
+    }
+    #navbar:hover #text{
+        margin-top: 350px;
+    }
+ } 
+    
